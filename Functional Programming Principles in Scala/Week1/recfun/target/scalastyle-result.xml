@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<checkstyle version="5.0">
+ <file name="C:\Users\Romanos\Projects\scala-workspace\CourseraSpecialization\Functional Programming Principles in Scala\Week1\recfun\src\main\scala\common\package.scala">
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+  <error column="6" line="24" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+ </file>
+ <file name="C:\Users\Romanos\Projects\scala-workspace\CourseraSpecialization\Functional Programming Principles in Scala\Week1\recfun\src\main\scala\recfun\Main.scala">
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+  <error column="0" line="23" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="0" line="45" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="4" line="5" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+  <error column="6" line="9" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+ </file>
+</checkstyle>

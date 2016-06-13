@@ -1,0 +1,28 @@
+ 
+console
+eclipse
+console
+compile
+testQuick
+test:
+testOnly
+compile
+testQuick
+submit r.trechlis@gmail.com lJR3dy2cvm51mows
+exit
+testQuick
+scalastyle
+scalastyleGenerateConfig
+scalastyle
+import example.Lists._
+scala
+console
+compile
+scalastyle
+testQuick
+console
+compile
+console
+submit r.trechlis@gmail.com ATnn9kSu7XywUDO8
+testQuick
+exit

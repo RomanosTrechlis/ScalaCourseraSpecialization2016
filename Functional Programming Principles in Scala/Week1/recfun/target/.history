@@ -1,0 +1,56 @@
+eclipse
+testQuic
+testQuick
+compile
+testQuick
+compile
+testQuick
+compile
+testQuick
+compile
+testQuick
+compile
+testQuick
+compile
+testQuick
+compile
+testQuick
+compile
+testQuick
+submit r.trechlis@gmail.com jKkgOWLZuQ2RGCyB
+style
+styleCheck
+run styleCheck
+run last *:styleCheck
+scalastyle
+scalastyle:
+styleCheck
+scalastyleGenerateConfig
+test:scalastyle
+styleCheck
+compile
+build
+buildDependencies
+scalastyleGenerateConfig
+exit
+scalastyleGenerateConfig
+scalastyle
+submit r.trechlis@gmail.com jKkgOWLZuQ2RGCyB
+styleCheck
+compile
+testQuick
+compile
+testQuick
+compile
+testQuick
+styleCheck
+scalastyle
+compile
+scalastyle
+testQuick
+submit r.trechlis@gmail.com jKkgOWLZuQ2RGCyB
+submit r.trechlis@gmail.com Tx5Lm5ZceQdGTAcU
+compile
+testQuick
+submit r.trechlis@gmail.com Tx5Lm5ZceQdGTAcU
+exit
