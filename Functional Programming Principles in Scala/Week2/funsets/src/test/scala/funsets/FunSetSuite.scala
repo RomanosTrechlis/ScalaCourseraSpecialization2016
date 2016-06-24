@@ -77,6 +77,8 @@ class FunSetSuite extends FunSuite {
     val s1 = singletonSet(1)
     val s2 = singletonSet(2)
     val s3 = singletonSet(3)
+    val s = Set(1,1,1)
+    val t = Set(1,2,3)
   }
 
   /**
@@ -103,12 +105,24 @@ class FunSetSuite extends FunSuite {
 
   test("union contains all elements of each set") {
     new TestSets {
-      val s = union(s1, s2)
-      assert(contains(s, 1), "Union 1")
-      assert(contains(s, 2), "Union 2")
-      assert(!contains(s, 3), "Union 3")
+      val q = union(s1, s2)
+      assert(contains(q, 1), "Union 1")
+      assert(contains(q, 2), "Union 2")
+      assert(!contains(q, 3), "Union 3")
     }
   }
-
-
+  
+  test("forall checks if all elements of a set are equal to value") {
+    new TestSets {
+      assert(forall(s, Set(1)), "forall expect true")
+      assert(!forall(t, Set(1)), "forall expect false")
+    }
+  }
+  
+  test("exists checks if at least one value in a set is equal to value") {
+    new TestSets {
+      assert(exists(t, Set(1)), "exists expect true")
+      assert(!exists(t, Set(4)), "exists expect false")
+    }
+  }
 }

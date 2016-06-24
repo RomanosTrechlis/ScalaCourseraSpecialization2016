@@ -1,0 +1,6 @@
+[0m[[0minfo[0m] [0m[32mFunSetSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- contains is implemented[0m[0m
+[0m[[0minfo[0m] [0m[32m- singletonSet(1) contains 1[0m[0m
+[0m[[0minfo[0m] [0m[32m- union contains all elements of each set[0m[0m
+[0m[[0minfo[0m] [0m[32m- forall checks if all elements of a set are equal to value[0m[0m
+[0m[[0minfo[0m] [0m[32m- exists checks if at least one value in a set is equal to value[0m[0m
